@@ -23,7 +23,6 @@ class PostController {
  *
  * Contoh: GET /api/posts?search=express&tag=backend
  */
-
     static getAll(req, res, next) {
         try {
             // Ambil query parameters yang sudah divalidasi middleware
